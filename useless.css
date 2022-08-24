@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Vibur);
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 html,body{
   height:100%;
 }
@@ -26,10 +26,11 @@ body {
    0 0 0.8rem #bc13fe,
    0 0 2.8rem #bc13fe,
    inset 0 0 1.3rem #bc13fe; 
+   animation: pulsate 1.5s infinite alternate;  
 }
 
 .logo b{
-  font: 400 19vh "Sacramento", sans-serif;;
+  font: 400 19vh 'Satisfy', cursive;
   color: #fee;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #bc13fe, 0 0 0.5em #bc13fe, 0 0 0.1em #bc13fe, 0 10px 3px #000;
 }
