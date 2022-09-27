@@ -3,7 +3,8 @@ html,body{
   height:100%;
 }
 body {
-  background: #112 url(https://img.freepik.com/foto-gratis/fondo-pared-ladrillo-rustico_53876-92955.jpg)  center no-repeat;
+  background: #112 center no-repeat;
+  background-image: url("img/fondo.jpg");
   background-size:cover;
   margin:0
 }
